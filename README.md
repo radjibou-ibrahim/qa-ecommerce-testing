@@ -3,9 +3,9 @@
 ## 📌 Project Overview
 
 This project demonstrates my practical skills as a Junior Software QA Tester through the manual testing of an e-commerce web application.
-
 The project covers the main user journey from authentication to product selection, shopping cart management, checkout, and order completion.
-
+The functional requirements used as the basis for this testing project are documented here:
+👉 [View Functional Requirements](./00-Requirements/Requirements.md)
 The objective is to identify defects, verify expected behavior, document test results, and evaluate the overall quality of the application.
 
 ---
@@ -107,7 +107,7 @@ The following testing techniques will be used:
 
 This project includes the following QA deliverables:
 
-- Requirements
+- Requirements 
 - Test Plan
 - Test Scenarios
 - Test Cases
