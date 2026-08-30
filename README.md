@@ -20,8 +20,6 @@ The main objectives of this project are to:
 - Perform functional and exploratory testing.
 - Validate positive and negative scenarios.
 - Perform regression testing after defect fixes.
-- Practice API testing.
-- Perform basic SQL validation.
 - Document testing activities and results.
 
 ---
@@ -82,8 +80,6 @@ The following testing techniques will be used:
 - Regression Testing
 - Exploratory Testing
 - End-to-End Testing
-- API Testing
-- Basic Database Validation
 
 ---
 
@@ -94,14 +90,6 @@ The following testing techniques will be used:
 - Jira
 - GitHub
 
-### API Testing
-
-- Postman
-
-### Database Testing
-
-- SQL
-
 ### Documentation
 
 - Microsoft Excel
@@ -111,7 +99,6 @@ The following testing techniques will be used:
 ### Browser Testing
 
 - Google Chrome
-- Mozilla Firefox
 - Microsoft Edge
 
 ---
@@ -120,6 +107,7 @@ The following testing techniques will be used:
 
 This project includes the following QA deliverables:
 
+- Requirements
 - Test Plan
 - Test Scenarios
 - Test Cases
@@ -127,8 +115,6 @@ This project includes the following QA deliverables:
 - Test Execution Results
 - Bug Reports
 - Exploratory Testing Report
-- API Testing
-- SQL Validation
 - Test Summary Report
 
 ---
@@ -139,6 +125,9 @@ This project includes the following QA deliverables:
 qa-ecommerce-testing/
 │
 ├── README.md
+│
+│   00-Requirements/
+│   └── Requirements.md
 │
 ├── 01-Test-Planning/
 │   └── Test-Plan.md
@@ -159,16 +148,9 @@ qa-ecommerce-testing/
 ├── 05-Exploratory-Testing/
 │   └── Exploratory-Test-Report.md
 │
-├── 06-API-Testing/
-│   └── Postman-Collection.json
-│
-├── 07-SQL/
-│   └── SQL-Validation.sql
-│
-├── 08-Evidence/
+├── 06-Evidence/
 │   ├── BUG-001.png
 │   ├── BUG-002.png
-│   └── API-Tests.png
 │
-└── 09-Test-Summary/
+└── 07-Test-Summary/
     └── Test-Summary-Report.md
