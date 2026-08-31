@@ -330,7 +330,6 @@ The focus will be on verifying the behavior of integrated application functional
 The following browsers will be considered for testing:
 
 - Google Chrome
-- Mozilla Firefox
 - Microsoft Edge
 
 The primary browser for initial testing will be Google Chrome.
@@ -599,7 +598,8 @@ The project will be completed progressively.
 
 # 22. Requirements Traceability
 
-The test activities will be linked to the functional requirements defined in the Requirements Document.
+The test activities will be linked to the functional requirements defined in the Requirements Document 
+👉 [View Functional Requirements](./00-Requirements/Requirements.md).
 
 | Requirement | Feature | Planned Test Coverage |
 |---|---|---|
