@@ -598,8 +598,7 @@ The project will be completed progressively.
 
 # 22. Requirements Traceability
 
-The test activities will be linked to the functional requirements defined in the Requirements Document 
-👉 [View Functional Requirements]([00-Requirements/Requirements.md](https://github.com/radjibou-ibrahim/qa-ecommerce-testing/blob/main/00-Requirements/Requirements.md)).
+The test activities will be linked to the functional requirements defined in the Requirements Document.
 
 | Requirement | Feature | Planned Test Coverage |
 |---|---|---|
