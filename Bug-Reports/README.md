@@ -7,8 +7,8 @@ testing of the SauceDemo e-commerce application.
 
 | Bug ID | Summary | Severity | Priority | Related Test Cases | Status |
 |---|---|---|---|---|---|
-| SET-11 | Product description is not displayed | Medium | P2 | TC-012 | Open |
-| SET-12 | Order confirmation is not displayed | High | P1 | TC-027, TC-034 | Open |
+| SCRUM-19 | Product description is not displayed | Medium | P2 | TC-012 | Open |
+| SCRUM-20 | Order confirmation is not displayed | High | P1 | TC-027, TC-034 | Open |
 
 ## Defect Management Process
 
