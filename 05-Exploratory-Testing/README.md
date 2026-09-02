@@ -5,8 +5,8 @@
 This folder contains the exploratory testing activities performed on the
 SauceDemo e-commerce application.
 
-Unlike structured testing, exploratory testing was used to investigate the
-application beyond the predefined test cases and identify unexpected
+Unlike structured testing, exploratory testing was used to investigate
+the application beyond the predefined test cases and identify unexpected
 behaviors that may not have been covered during the initial test design.
 
 The exploratory sessions were guided by specific testing charters and
@@ -52,22 +52,22 @@ application behaves under different conditions and user actions.
 | Session ID | Title | Area | Result | Defects |
 |---|---|---|---|---|
 | ET-001 | Shopping Cart Exploration | Shopping Cart | Completed | SCRUM-21 |
-| ET-002 | Checkout Exploration | Checkout | Planned | - |
+| ET-002 | Checkout Exploration | Checkout | Completed | SCRUM-22 |
 | ET-003 | Navigation Exploration | Navigation | Planned | - |
 | ET-004 | Login & Session Exploration | Authentication | Planned | - |
 | ET-005 | Product Exploration | Products | Planned | - |
 
 ---
 
-## ET-001 — Shopping Cart Exploration
+# ET-001 — Shopping Cart Exploration
 
-### Objective
+## Objective
 
 Explore the Shopping Cart functionality to identify unexpected behaviors
 related to adding, removing, and navigating between products and the
 shopping cart.
 
-### Key Findings
+## Key Finding
 
 The session identified one confirmed defect:
 
@@ -89,57 +89,57 @@ without a defined requirement.
 
 ---
 
+# ET-002 — Checkout Exploration
+
+## Objective
+
+Explore the Checkout functionality to identify unexpected behaviors
+related to customer information, validation, navigation, order review,
+and order completion.
+
+## Key Finding
+
+The session identified one confirmed defect:
+
+**SCRUM-22 — Checkout fields accept whitespace-only values**
+
+The following required checkout fields accept values containing only
+spaces:
+
+- First Name
+- Last Name
+- Postal Code
+
+The application allows the user to continue with the checkout process
+despite these fields containing no meaningful information.
+
+## Other Findings
+
+The following areas were explored without identifying additional
+confirmed defects:
+
+- Unusual First Name values
+- Unusual Last Name values
+- Unusual Postal Code values
+- Checkout navigation
+- Order modification
+- Multiple products
+- Repeated clicks
+
+---
+
 ## Defect Traceability
 
 Exploratory testing findings are linked to Jira defects when a confirmed
 issue is identified.
 
-Example:
+### ET-001
 
+```text
 ET-001
-→ Finding
-→ SCRUM-21
-
-This provides traceability between the exploratory testing session and
-the corresponding defect.
-
----
-
-## Difference from Structured Testing
-
-Exploratory testing complements the structured testing performed earlier
-in the project.
-
-| Structured Testing | Exploratory Testing |
-|---|---|
-| Predefined test cases | Testing charter |
-| Expected results defined in advance | Results discovered during exploration |
-| Planned execution | Dynamic investigation |
-| Requirement-focused | Behavior-focused |
-| PASS / FAIL / BLOCKED | Findings and observations |
-| Reproducible test steps | Flexible test exploration |
-
-Both approaches are used together to increase test coverage and improve
-confidence in the application.
-
----
-
-## Tools
-
-- SauceDemo
-- Google Chrome
-- Jira
-- GitHub
-- Microsoft Excel
-
----
-
-## Status
-
-**Exploratory Testing:** In Progress
-
-**Completed Sessions:** 1
-
-**Confirmed Defects from Exploratory Testing:** 1
-
-**Jira Defect:** SCRUM-21
+  ↓
+Shopping Cart Exploration
+  ↓
+Finding
+  ↓
+SCRUM-21
