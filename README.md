@@ -141,16 +141,22 @@ qa-ecommerce-testing/
 │   └── Test-Execution.xlsx
 │
 ├── 04-Bug-Reports/
-│   ├── BUG-001.md
-│   ├── BUG-002.md
-│   └── BUG-003.md
+├── SCRUM-19-Product-Description-Missing.md
+├── SCRUM-20-Order-Confirmation-Missing.md
+├── SCRUM-21-Disabled-Add-to-Cart.md
+└── SCRUM-22-Whitespace-Only-Checkout-Values.md
 │
 ├── 05-Exploratory-Testing/
-│   └── Exploratory-Test-Report.md
+├── README.md
+├── ET-001-Shopping-Cart-Exploration.md
+└── ET-002-Checkout-Exploration.md
 │
 ├── 06-Evidence/
-│   ├── BUG-001.png
-│   ├── BUG-002.png
+├── README.md
+├── SCRUM-19-Product-Description.png
+├── SCRUM-20-Order-Confirmation.png
+├── SCRUM-21-Disabled-Add-to-Cart.png
+└── SCRUM-22-Whitespace-Validation.png
 │
 └── 07-Test-Summary/
     └── Test-Summary-Report.md
